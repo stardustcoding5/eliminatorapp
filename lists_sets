@@ -1,0 +1,42 @@
+#Eliminator allows you to import an eliminate duplicate data sets from mulitple databases
+
+#variables 
+
+#databases
+program_a_database = "\n".join(['Jon', 'Steve', 'Mark', 'Vicky', 'Debbie', 'Sandra', 'Carlos', 'Maria'])
+program_b_database = "\n".join(["James", "Steve", "Mindy", "Vicky", "Debbie", "Oscar", "Carlos", "Manny"])
+
+#sets
+program_a_database_set = set(program_a_database)
+program_b_database_set = set(program_b_database)
+
+
+#interface
+print("___________________________________________")
+print(" ")
+
+print("------ PROGRAM A ------")
+print(" ")
+print("Number of Variables in PROGRAM A:")
+print(len(program_a_database_set))
+print(" ")
+print("LIST OF NAMES:")
+print(program_a_database)
+print(" ")
+
+
+print(" ")
+print("------ PROGRAM B ------")
+print(" ")
+print("Number of Variables in PROGRAM B:")
+print(len(program_b_database_set))
+print(" ")
+print("LIST OF NAMES:")
+print(program_b_database)
+print(" ")
+
+
+
+print(" ")
+print("___________________________________________")
+print(" ")
